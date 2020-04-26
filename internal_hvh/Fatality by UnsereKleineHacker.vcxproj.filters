@@ -1,0 +1,630 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="features\animations.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="features\beams.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="features\bone_setup.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\CEconItem.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\interfaces\CGlowObjectManager.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="features\chams.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\checksum_md5.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\con_vars.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fatality_gui\menu\config\config.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="features\console_log.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\CPlayerInventory.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\create_move.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="misc\d3dfont.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="DLLMain.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\do_extra_bone_processing.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\do_post_screen_space_effects.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\draw_model_execute.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\emit_sound.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\entity_classes.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\eye_angles.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="features\fake_ping.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\fire_bullets.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\frame_stage_notify.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="features\freestanding.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="globals.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="features\glow.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooks.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="misc\init.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="features\inventorychanger.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\is_box_visible.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\is_connected.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\is_hltv.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="features\lag_compensation.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="misc\listeners.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\lock_cursor.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\m_angEyeAngles0Proxy.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\m_angEyeAngles1Proxy.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\m_angRotationProxy.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\m_flLowerBodyYawTargetProxy.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="misc\math.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="misc\netvars.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="misc\offsets.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\override_view.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\paint_traverse.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="features\prediction.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\present.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\process_input.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="misc\render.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\render_view.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\reset.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="features\resolver.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\scene_end.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\send_datagram.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\sequence.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="features\skinchanger.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\smoke_effect.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\temp_entities.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="features\thirdperson.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\trace_ray.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="misc\util.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="features\visuals.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="features\wall_penetration.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\wnd_proc.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="features\autostrafer.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="features\hitmarker.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="features\misc.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\play_sound.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="features\player_log.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fatality_gui\menu\controls\button.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fatality_gui\menu\controls\checkbox.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fatality_gui\menu\controls\colorpicker.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fatality_gui\menu\controls\combobox.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fatality_gui\menu\controls\control.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fatality_gui\menu\controls\keybind.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\interfaces\interfaces.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fatality_gui\menu\controls\listbox.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fatality_gui\menu\menu.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fatality_gui\menu\controls\multi-selectable.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fatality_gui\menu\controls\slider.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fatality_gui\menu\controls\subtab.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fatality_gui\menu\controls\tab.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fatality_gui\menu\controls\textbox.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fatality_gui\menu\controls\window.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="features\antiaim.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="features\aimbot.cpp">
+      <Filter>Cpps</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="features\animations.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="features\beams.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="features\bone_setup.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\CBoneChache.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\CEconItem.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\CGlowObjectManager.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="features\chams.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\checksum_md5.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\CHud.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\ClientClass.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\CNetChannel.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fatality_gui\menu\config\config.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="features\console_log.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\ConVar.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\CPlayerInventory.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="cthash.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\datatypes\CUtlVector.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\CCSGameRulesProxy.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\CCSGOPlayerAnimState.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\CSPlayerResource.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\d3dfont.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\datamap.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\defines.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\entity_classes.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="features\fake_ping.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="features\freestanding.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="features\glow.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks\hooks.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\hybrid_hook.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IBaseClientDll.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\IClientEntity.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IClientEntityList.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IClientModeShared.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IClientState.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\ICVar.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IEngineClient.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IEngineTrace.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IGameEventManager.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IGlobalVarsBase.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IInput.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\ILocalize.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\IMaterial.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IMaterialSystem.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\IMaterialVar.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IMatRenderContext.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IMemAlloc.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IMoveHelper.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include_cheat.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="features\include_features.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fatality_gui\menu\include_menu.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\include_sdk.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\INetChannelInfo.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\init.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="features\inventorychanger.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IPhysicsSurfaceProps.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IPrediction.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\IRefCounted.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\ISurface.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IVDebugOverlay.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IViewRender.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IViewRenderBeams.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IVModelInfo.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IVModelRender.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IVPanel.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IVRenderView.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IWeaponSystem.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\listeners.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="features\lag_compensation.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\math.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\datatypes\matrix3x4_t.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\netvars.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\offsets.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="features\prediction.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\datatypes\QAngle.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\recv_prop_hook.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="features\resolver.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\render.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="singleton.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="features\skinchanger.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\structs.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="features\structs.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="features\thirdperson.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="threadsafe_deque.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\tinyformat.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\trace_ray.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\util.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\datatypes\Vector.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\datatypes\Vector2D.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\datatypes\Vector4D.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="features\visuals.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\datatypes\VMatrix.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="features\wall_penetration.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="features\aimbot.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="features\antiaim.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fatality_gui\menu\controls\button.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\datatypes\Color.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fatality_gui\menu\controls\checkbox.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fatality_gui\menu\controls\colorpicker.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fatality_gui\menu\controls\combobox.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fatality_gui\menu\controls\control.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\interfaces.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fatality_gui\menu\controls\keybind.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fatality_gui\menu\controls\listbox.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fatality_gui\menu\menu.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fatality_gui\menu\controls\multi-selectable.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fatality_gui\menu\controls\slider.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fatality_gui\menu\controls\subtab.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fatality_gui\menu\controls\tab.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fatality_gui\menu\controls\textbox.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fatality_gui\menu\controls\window.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="features\autostrafer.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="features\hitmarker.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\hitsounds.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="features\misc.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="features\player_log.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{635d6d09-83d0-42bc-9b96-78ecebd6ed95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cpps">
+      <UniqueIdentifier>{670e618a-302c-4caa-be90-b37bfbe2e66f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="smallest_pixel-7.ttf" />
+  </ItemGroup>
+</Project>
