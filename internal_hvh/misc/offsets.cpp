@@ -17,8 +17,6 @@ w"    "w    =  =    ||||||||||||W            W|||||||||=========| /      \
   Elmo    Big Bird     Oscar    Cookie Monster  Bert     Ernie     Kermit
 
 
-
-            https://github.com/frk1/hazedumper/blob/master/csgo.cs
 */
 //uintptr_t offsets::local_player = 0xD30B94;
 uintptr_t offsets::local_player = 0x2FBC;
